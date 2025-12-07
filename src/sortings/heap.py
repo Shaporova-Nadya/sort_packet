@@ -26,6 +26,8 @@ def heap_sort(arr):
         arr[i], arr[0] = arr[0], arr[i]
         heapify(arr, i, 0)
 
+    return arr
+
 my_list = [12, 11, 13, 5, 6, 7]
 heap_sort(my_list)
 print("Отсортированный массив:", my_list)
