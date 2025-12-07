@@ -1,5 +1,5 @@
 import pytest
-from merge import merge_sort
+from src.sortings.merge import merge_sort
 
 
 def test_merge():
