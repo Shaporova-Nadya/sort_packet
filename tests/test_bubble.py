@@ -1,5 +1,5 @@
 import pytest
-from bubble import bubble
+from src.sortings.bubble import bubble
 
 def test_bubble():
     assert bubble([2, 99, 4, 1]) == [1, 2, 4, 99]
