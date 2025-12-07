@@ -1,5 +1,5 @@
 import pytest
-from heap import heap_sort
+from src.sortings.heap import heap_sort
 
 
 def test_heap():
