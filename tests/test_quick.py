@@ -1,5 +1,5 @@
 import pytest
-from quick import quick_sort
+from src.sortings.quick import quick_sort
 
 
 def test_quick():
